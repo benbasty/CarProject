@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="homeAnchor" prefHeight="409.0" prefWidth="578.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.HomeController">
+   <children>
+      <Button fx:id="maruti" alignment="CENTER" contentDisplay="TOP" layoutX="13.0" layoutY="16.0" mnemonicParsing="false" onAction="#marutiAction" prefHeight="182.0" prefWidth="266.0" style="-fx-background-color: #2D3447;" text="MARUTI" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="121.0" fitWidth="152.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Ressources/Maruti000.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button fx:id="toyota" contentDisplay="TOP" layoutX="297.0" layoutY="15.0" mnemonicParsing="false" onAction="#toyotaAction" prefHeight="182.0" prefWidth="266.0" style="-fx-background-color: #2D3447;" text="TOYOTA" textFill="#fcf9f9">
+         <graphic>
+            <ImageView fitHeight="210.0" fitWidth="227.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Ressources/tyt2.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button fx:id="latoya" alignment="BOTTOM_CENTER" contentDisplay="TOP" layoutX="13.0" layoutY="207.0" mnemonicParsing="false" onAction="#latoyaAction" prefHeight="182.0" prefWidth="266.0" style="-fx-background-color: #2D3447;" text="LATOYA" textFill="#fffefe">
+         <graphic>
+            <ImageView fitHeight="142.0" fitWidth="192.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Ressources/Toyota.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button fx:id="mustang" contentDisplay="TOP" layoutX="297.0" layoutY="207.0" mnemonicParsing="false" onAction="#mustangAction" prefHeight="182.0" prefWidth="266.0" style="-fx-background-color: #2D3447;" text="MUSTANG" textFill="#fcf9f9">
+         <graphic>
+            <ImageView fitHeight="131.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Ressources/ford-mustang.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+   </children>
+</AnchorPane>
